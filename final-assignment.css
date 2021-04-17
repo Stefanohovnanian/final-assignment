@@ -1,17 +1,12 @@
- /* Remove the navbar's default rounded borders and increase the bottom margin */ 
-    .navbar {
-      margin-bottom: 50px;
-      border-radius: 0;
-    }
-    
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
    
-   
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
 
 .carousel {
     text-align: center;
@@ -25,6 +20,7 @@
     background-color: #fffa;
     color: black;
 }
+
 .carousel-caption h5 {
     font-size: 1.5rem;
 }
@@ -60,4 +56,22 @@ body {
     height: 0;
     padding-bottom: 56.25%;
     position: relative;
+}
+
+.submit-button {
+    margin-left: 20px;
+}
+
+.sparring-gear-fitting {
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 3rem;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.decibel-table {
+    margin: 20px auto;
 }

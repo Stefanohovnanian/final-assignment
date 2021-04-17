@@ -1,0 +1,63 @@
+ /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+   
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+
+.carousel {
+    text-align: center;
+}
+
+.carousel-item img {
+    height: 463px;
+}
+
+.carousel-caption {    
+    background-color: #fffa;
+    color: black;
+}
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.carousel-controls {
+    color: black;
+    font-weight: 900;
+    font-size: 5rem;
+    font-family: monospace;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.video_container_container {
+    text-align: center;
+    height: 100%;
+    max-height: 634px;
+    width: 100%;
+    max-width: 1124px;
+    margin: 10px auto;
+}
+
+.video_container {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
